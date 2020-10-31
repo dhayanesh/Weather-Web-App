@@ -33,7 +33,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'This app is made for learning and educational purpose only..',
         title: 'Help',
         name: 'Dhaya'
     })
@@ -83,5 +83,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Server is up on port 3000.')
+    console.log('Server is up on heroku.')
 })
