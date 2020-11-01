@@ -44,3 +44,8 @@ header a {
 body {
     background-image: url('/img/back.jpg');
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
