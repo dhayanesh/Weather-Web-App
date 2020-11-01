@@ -40,3 +40,7 @@ header a {
 .main-content{
     flex-grow: 1;
 }
+
+body {
+    background-image: url('/img/back.jpg');
+  }
